@@ -23,6 +23,6 @@ public class Main {
         final float interestRateAnnual = scannerObj.nextFloat();
         System.out.print("Period (Years): ");
         final int term = scannerObj.nextInt();
-        mortgageCalculator(principal, interestRateAnnual, term);
+        System.out.println(mortgageCalculator(principal, interestRateAnnual, term));
     }
 }
